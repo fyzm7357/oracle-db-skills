@@ -61,6 +61,8 @@ skills/
 
 Each domain should own its own `SKILL.md` and any additional indexing files it needs.
 
+For domains that are still stubs, keep `SKILL.md` minimal. Those files should act as short sample markers that point readers back to this `README.md` and `SKILL_AUTHORING_GUIDE.md` for the repo-wide pattern.
+
 ## Version Coverage Standard
 
 - Skills that include version-specific behavior must include a section named `## Oracle Version Notes (19c vs 26ai)`.
