@@ -27,6 +27,15 @@ Each domain should own:
 - A `SKILL.md` file that explains the domain and how to navigate it.
 - Topic folders or markdown files that stay coherent within that domain.
 
+For a populated domain, organize content by category directories under the domain path and use the domain `SKILL.md` as the domain table of contents. The standard pattern is:
+
+- Category-based subdirectories such as `admin/`, `security/`, `integration/`, or other domain-appropriate groupings
+- A `## How to Use This Domain` section
+- A `## Directory Structure` section
+- A `## Category Routing` section
+- A `## Key Starting Points` section
+- A `## Common Multi-Step Flows` section
+
 For stub domains that do not yet have real content, keep `SKILL.md` short. It should indicate that it is a sample domain skeleton and direct readers to the root `README.md` and this guide for the pattern to follow.
 
 ## Before You Add a Skill

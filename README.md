@@ -61,6 +61,14 @@ skills/
 
 Each domain should own its own `SKILL.md` and any additional indexing files it needs.
 
+For a real domain, organize content by category directories under that domain path, and use the domain `SKILL.md` as the table of contents for the domain. That file should normally include:
+
+- `## How to Use This Domain`
+- `## Directory Structure`
+- `## Category Routing`
+- `## Key Starting Points`
+- `## Common Multi-Step Flows`
+
 For domains that are still stubs, keep `SKILL.md` minimal. Those files should act as short sample markers that point readers back to this `README.md` and `SKILL_AUTHORING_GUIDE.md` for the repo-wide pattern.
 
 ## Version Coverage Standard
