@@ -1,3 +1,8 @@
+---
+name: db
+description: Oracle Database skills for administration, SQL and PL/SQL development, performance tuning, security, ORDS, SQLcl, migrations, frameworks, Oracle Container Registry guidance, and agent-safe database workflows.
+---
+
 # Oracle Database Skills
 
 This domain contains Oracle Database skills for administration, SQL and PL/SQL development, performance tuning, security, ORDS, SQLcl, migrations, frameworks, OCR container guidance, and agent-safe database workflows.

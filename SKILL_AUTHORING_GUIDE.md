@@ -27,6 +27,17 @@ Each domain should own:
 - A `SKILL.md` file that explains the domain and how to navigate it.
 - Topic folders or markdown files that stay coherent within that domain.
 
+Each installable domain `SKILL.md` must start with YAML front matter containing
+`name` and `description` fields. Skill installers use these fields to discover
+and validate skills.
+
+```markdown
+---
+name: db
+description: Oracle Database skills for administration, SQL and PL/SQL development, performance tuning, security, ORDS, SQLcl, migrations, frameworks, and agent-safe database workflows.
+---
+```
+
 For a populated domain, organize content by category directories under the domain path and use the domain `SKILL.md` as the domain table of contents. The standard pattern is:
 
 - Category-based subdirectories such as `admin/`, `security/`, `integration/`, or other domain-appropriate groupings
